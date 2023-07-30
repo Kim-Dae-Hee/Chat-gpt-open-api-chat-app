@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg-header);
+  padding: 10px 20px;
+}
+
+.header-paragraph {
+  flex: 1; /* 주어진 공간을 균등하게 나누어 모든 요소들을 가운데로 정렬 */
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.header-button {
+  outline: none;
+  border: none;
+  padding-top: 5px;
+  background-color: transparent;
+  font-size: 20px;
+  color: var(--color-toggle);
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+
+.header-button:hover {
+  transform: scale(1.2);
+  color: var(--color-toggle-hover);
+}

@@ -1,0 +1,40 @@
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-message {
+  background-color: var(--color-user-message);
+  color: var(--color-text);
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  align-self: flex-end;
+  max-width: 60%; 
+}
+
+.bot-message {
+  background-color: var(--color-bot-message);
+  color: var(--color-text);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: flex-start;
+  max-width: 50%; 
+}
+
+.user-date {
+  font-size: var(--font-size);
+  color: var(--color-text);
+  margin-bottom: 10px;
+  padding-right: 8px;
+  align-self: flex-end;
+}
+
+.bot-date {
+  position: relative;
+  font-size: var(--font-size);
+  color: var(--color-text);
+  margin-bottom: 10px;
+  padding-left: 3px;
+  align-self: flex-start;
+}
