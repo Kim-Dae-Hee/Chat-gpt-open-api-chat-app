@@ -7,7 +7,7 @@
 }
 
 .header-paragraph {
-  flex: 1; /* 주어진 공간을 균등하게 나누어 모든 요소들을 가운데로 정렬 */
+  flex: 1; 
   text-align: center;
   font-size: 18px;
   font-weight: bold;
