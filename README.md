@@ -57,12 +57,11 @@
                                          messages의 가장 마지막으로 스크롤이 
                                          이동하도록 구현했는데 응답 메시지로 
                                          이동 안하는 문제가 있었어요.
-                                         이유를 확인해보니 setMessages로 화면이 
+                                         이유를 확인해보니 setMessages로 
                                          리렌더링 되기 전에 scrollToLatestMessage 함수가 실행돼서 
                                          마지막 messages로 접근을 못했던 것이었어요. 
                                          scrollToLatestMessage 함수를
-                                         setTimeout의 callback 함수로 넘겨줘서 
-                                         task queue에 이동 후 실행하도록 시간 간격을 줘서 해결했어요.
+                                         setTimeout web api의 callback 함수로 넘겨줘서 해결했어요.
 
 
 ![이슈1 이미지](./readme-img/이슈1.png)
