@@ -46,9 +46,6 @@
     2) Java 8 : 업무에서는 Java7을 사용하는데, Java8의 stream이나 
                 messageConverter::convertToDTO과 같이 메소드 레퍼런스는 
                 코드를 간결하게 해주는 장점이 있네요.
-                (추가적으로 JPA를 사용했는데, 
-                단순히 repository에 extends JpaRepository<Message, UUID>만 
-                추가하고 사용해서 기술스택 목록에 쓰기에는 부족함이 있습니다...)
 
 ![자바8 문법 이미지](./readme-img/Java8_문법.png)
 
