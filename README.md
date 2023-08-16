@@ -37,9 +37,8 @@
 
 ## 2. Back-end 설명
 
-    1) Spring Boot : Spring Boot를 사용한 이유는 TomCat이 내장되어 있어서
-                     개발 환경 세팅 시간 단축과 Spring Bean으로 등록해주면 
-                     알아서 IoC, DI를 해주기 때문에 구현하기 편해서예요. 
+    1) Spring Boot : Spring Boot를 사용한 이유는 Tomcat이 내장되어 있어서
+                     개발 환경 세팅이 편해서예요. 
                      
 ![Spring Boot 이미지](./readme-img/Spring_boot.png)
 
