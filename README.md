@@ -1,4 +1,4 @@
-# Chat Gpt API Open API를 이용한 채팅 앱
+# Chat Gpt Open API를 이용한 채팅 앱
 
 ## 0. 사용한 기술
 
