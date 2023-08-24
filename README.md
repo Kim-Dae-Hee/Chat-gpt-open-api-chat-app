@@ -12,7 +12,7 @@
 
     0) React : SPA 중 React를 사용했어요. 
                사용한 이유는 React가 Vue보다 JS 공부를 더 깊게
-               할 수 있어서예요. (찾아보니 JS 능력이 더 필요하더라고요...)
+               할 수 있어서예요.
 
 ![React 이미지](./readme-img/React_이미지.png)              
 
